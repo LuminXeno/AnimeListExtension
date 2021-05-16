@@ -3,4 +3,7 @@
     "description": "Extension to keep track of what you watch",
     "version": "1.0",
     "manifest_version": 3
+    "background": {
+      "service_worker": "background.js"
+    }
   }
